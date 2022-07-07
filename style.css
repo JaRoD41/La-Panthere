@@ -717,6 +717,8 @@ p {
 }
 
 .social {
+	display: flex;
+	justify-content: space-evenly;
 	max-width: 400px;
 	margin: auto auto auto auto;
 }
