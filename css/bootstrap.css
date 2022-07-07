@@ -2315,7 +2315,10 @@ pre code {
 	.col-sm-12 p {
 		font-family: "helvetica";
 		font-weight: 400;
-		font-size: 28px;
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 22px;
 	}
 	.col-sm-11 {
 		width: 91.66666667%;
