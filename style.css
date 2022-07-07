@@ -679,7 +679,21 @@ a {
 }
 
 p {
-	font-size: 11px;
+	font-size: 16px;
+}
+
+.article-presse {
+	font-size: 20px;
+	font-style: italic;
+	line-height: 20px;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+.auteur-article {
+	width: 70%;
+	text-align: center;
+	margin: auto;
 }
 
 .tight-width-whitespace {
@@ -742,6 +756,7 @@ h4 {
 }
 
 .portfolio-thumb {
+	margin: auto;
 	margin-bottom: 24px;
 }
 
@@ -754,10 +769,10 @@ h4 {
 	box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-	background-color: rgba(165, 147, 99, 0.7);
+/*.black-background {
+	background-color: rgba(66, 48, 0, 0.18);
 	padding: 40px 40px 40px 40px;
-}
+}*/
 
 .bold-link {
 	font-weight: 900;
@@ -777,17 +792,17 @@ h4 {
 }
 
 .tc-white {
-	color: #f3976c !important;
+	color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
 	background: #f3976c;
-	color: #ffffff !important;
+	color: #3b3b3b !important;
 }
 
 .btn-atomic-tangerine:hover {
 	background: #c27956 !important;
-	color: #ffffff !important;
+	color: #3b3b3b !important;
 }
 
 .ltc-white {
