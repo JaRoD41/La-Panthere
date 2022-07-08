@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+<!--Ajout du paramètre LANG-->
 
 <head>
 	<meta charset="utf-8">
@@ -258,25 +259,25 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="commentaires">
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="text" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="description projet">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50"
 									required></textarea>
@@ -289,8 +290,9 @@
 					</div>
 					<div class="col-sm-6">
 						<p>
-							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
-							au vendredi<br>
+							Ouvert de 9h à 18h, du lundi
+							au vendredi<br><br> <a href="mailto:contact@agencelapanthere.com">
+								contact@agencelapanthere.com</a><br>
 						</p>
 					</div>
 				</div>
@@ -304,7 +306,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<p class="text-center dark_grey">
-							Agence La Panthère - Agence web basée à Lyon.<br>
+							Agence La Panthère - 2 place Sathonay 69001 Lyon<br>
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
