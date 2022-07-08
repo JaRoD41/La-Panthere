@@ -725,7 +725,10 @@ p {
 	font-weight: 700;
 }
 
-.social {
+.twitter,
+.facebook,
+.dribbble,
+.instagram {
 	display: flex;
 	justify-content: space-evenly;
 	max-width: 400px;
