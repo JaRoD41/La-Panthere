@@ -730,9 +730,10 @@ p {
 .dribbble,
 .instagram {
 	display: flex;
-	justify-content: space-evenly;
-	max-width: 400px;
-	margin: auto auto auto auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 14px auto;
 }
 
 h2 {
