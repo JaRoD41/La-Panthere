@@ -1411,9 +1411,16 @@ textarea {
 	line-height: inherit;
 }
 
-a {
+a,
+.mailto-fin {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.mailto-fin:focus,
+.mailto-fin:hover {
+	color: #ffffff;
+	text-decoration: underline;
 }
 
 a:focus,
@@ -2338,6 +2345,12 @@ pre code {
 	.col-sm-6 {
 		width: 50%;
 	}
+
+	.col-sm-6 .horaires {
+		margin-top: 140px;
+		font-weight: bold;
+	}
+
 	.col-sm-5 {
 		width: 41.66666667%;
 	}
