@@ -269,6 +269,7 @@ th {
 	}
 	img {
 		max-width: 100% !important;
+		height: 100%;
 	}
 	h2,
 	h3,
