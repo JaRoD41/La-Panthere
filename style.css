@@ -701,8 +701,19 @@ p {
 	text-align: center;
 }
 
+.col-sm-6 a:focus {
+	border: 4px solid #f3976c;
+	box-shadow: 5px 5px 5px #f3976c;
+}
+
 .col-sm-12 p {
 	padding-bottom: 18px;
+}
+
+.col-sm-12 a:focus {
+	border: 4px solid #000000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000000;
 }
 
 .article-presse {
