@@ -12,4 +12,4 @@ Mission :
 
 ## Site internet
 
-[https://jarod41.github.io/P4-La-Panthere/](https://jarod41.github.io/La-Panthere/)https://jarod41.github.io/La-Panthere/
+[https://jarod41.github.io/P4-La-Panthere/](https://jarod41.github.io/La-Panthere/)
